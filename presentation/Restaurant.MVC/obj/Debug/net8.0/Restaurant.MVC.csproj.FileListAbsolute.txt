@@ -30,3 +30,4 @@ C:\Users\Kubra\OneDrive\Desktop\RestaurantManagment\presentation\Restaurant.MVC\
 C:\Users\Kubra\OneDrive\Desktop\RestaurantManagment\presentation\Restaurant.MVC\obj\Debug\net8.0\Restaurant.MVC.pdb
 C:\Users\Kubra\OneDrive\Desktop\RestaurantManagment\presentation\Restaurant.MVC\obj\Debug\net8.0\Restaurant.MVC.genruntimeconfig.cache
 C:\Users\Kubra\OneDrive\Desktop\RestaurantManagment\presentation\Restaurant.MVC\obj\Debug\net8.0\ref\Restaurant.MVC.dll
+C:\Users\Kubra\OneDrive\Desktop\RestaurantManagment\presentation\Restaurant.MVC\obj\Debug\net8.0\Restaurant.MVC.sourcelink.json
