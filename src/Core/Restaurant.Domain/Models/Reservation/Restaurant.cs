@@ -36,4 +36,3 @@ namespace Restaurant.Domain.Models
         public virtual ICollection<RestaurantBranch> RestaurantBranches { get; set; } = new List<RestaurantBranch>();
     }
 }
-}

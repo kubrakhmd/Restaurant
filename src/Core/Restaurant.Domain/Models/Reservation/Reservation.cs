@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Restaurant.Domain.Models
 {
     public class Reservation
@@ -22,5 +17,10 @@ namespace Restaurant.Domain.Models
 
         public virtual User User { get; set; } = null!;
         public bool ReminderSent { get; set; } = false;
+        public int DiningTableId { get; set; }
+        public DiningTable DiningTable { get; set; } 
+
+       
+
     }
 }

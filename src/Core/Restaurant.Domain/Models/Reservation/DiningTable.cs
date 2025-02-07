@@ -12,6 +12,7 @@ namespace Restaurant.Domain.Models
         public int Id { get; set; }
 
         public int RestaurantBranchId { get; set; }
+       
 
 
         [MaxLength(100)]
@@ -20,8 +21,13 @@ namespace Restaurant.Domain.Models
         [Required]
         public int Capacity { get; set; }
 
-        public virtual RestaurantBranch Branch { get; set; } = null!;
+     
         public virtual ICollection<TimeSlot> TimeSlots { get; set; } = new List<TimeSlot>();
+
+       
+        public RestaurantBranch RestaurantBranch { get; set; } // Navigation Property
+
+        public List <Reservation> Reservations { get; set; }
 
     }
 }

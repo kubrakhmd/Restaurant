@@ -35,9 +35,9 @@ namespace Restaurant.Domain.Models
 
         public virtual ICollection<DiningTable> DiningTables { get; set; } = new List<DiningTable>();
 
-        public virtual Restaurant Restaurant { get; set; } = null!;
+        public Restaurant Restaurant { get; set; } = null!;
 
 
     }
-}
+
 }
