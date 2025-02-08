@@ -6,6 +6,7 @@ using Restaurant.Application.Abstractions.Services;
 using Restaurant.Domain.Models;
 using Restaurant.Application.ViewModels;
 using Restaurant.Persistence.Implementations.Repositories;
+using Microsoft.Identity.Web.Resource;
 
 namespace Restaurant.API.Controllers
 {
@@ -50,8 +51,9 @@ namespace Restaurant.API.Controllers
             [HttpPost("CheckIn")]
             [ProducesResponseType(200, Type = typeof(ReservationVM))]
             [ProducesResponseType(400)]
-            
-            public async Task<ActionResult<ReservationVM>> CheckInReservationAsync(DiningTableWithTimeSlotVM reservation)
+        [RequiredScope(RequiredScopesConfigurationKey = "AzureAdB2C:Scopes:Write")]
+
+        public async Task<ActionResult<ReservationVM>> CheckInReservationAsync(DiningTableWithTimeSlotVM reservation)
             {
                 if (!ModelState.IsValid)
                 {
