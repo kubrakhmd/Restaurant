@@ -3,6 +3,74 @@
   "WorkspaceRootPath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|c:\\users\\kubra\\onedrive\\desktop\\restaurantmanagment\\src\\core\\restaurant.application\\dtos\\author\\updateauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|solutionrelative:src\\core\\restaurant.application\\dtos\\author\\updateauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|c:\\users\\kubra\\onedrive\\desktop\\restaurantmanagment\\src\\core\\restaurant.application\\dtos\\author\\getauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|solutionrelative:src\\core\\restaurant.application\\dtos\\author\\getauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|c:\\users\\kubra\\onedrive\\desktop\\restaurantmanagment\\src\\core\\restaurant.application\\dtos\\author\\createauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|solutionrelative:src\\core\\restaurant.application\\dtos\\author\\createauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|c:\\users\\kubra\\onedrive\\desktop\\restaurantmanagment\\src\\core\\restaurant.application\\dtos\\author\\authoritemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|solutionrelative:src\\core\\restaurant.application\\dtos\\author\\authoritemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|c:\\users\\kubra\\onedrive\\desktop\\restaurantmanagment\\src\\core\\restaurant.application\\dtos\\blog\\blogitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|solutionrelative:src\\core\\restaurant.application\\dtos\\blog\\blogitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|c:\\users\\kubra\\onedrive\\desktop\\restaurantmanagment\\src\\core\\restaurant.application\\dtos\\blog\\updateblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|solutionrelative:src\\core\\restaurant.application\\dtos\\blog\\updateblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|c:\\users\\kubra\\onedrive\\desktop\\restaurantmanagment\\src\\core\\restaurant.application\\dtos\\blog\\getblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|solutionrelative:src\\core\\restaurant.application\\dtos\\blog\\getblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|c:\\users\\kubra\\onedrive\\desktop\\restaurantmanagment\\src\\core\\restaurant.application\\dtos\\blog\\createblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|solutionrelative:src\\core\\restaurant.application\\dtos\\blog\\createblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|c:\\users\\kubra\\onedrive\\desktop\\restaurantmanagment\\src\\core\\restaurant.application\\dtos\\genre\\creategenredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|solutionrelative:src\\core\\restaurant.application\\dtos\\genre\\creategenredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|c:\\users\\kubra\\onedrive\\desktop\\restaurantmanagment\\src\\core\\restaurant.application\\dtos\\genre\\updategenredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|solutionrelative:src\\core\\restaurant.application\\dtos\\genre\\updategenredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|c:\\users\\kubra\\onedrive\\desktop\\restaurantmanagment\\src\\core\\restaurant.application\\dtos\\genre\\getgenredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|solutionrelative:src\\core\\restaurant.application\\dtos\\genre\\getgenredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|c:\\users\\kubra\\onedrive\\desktop\\restaurantmanagment\\src\\core\\restaurant.application\\dtos\\genre\\genreitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA714D4-4886-4E07-A7E6-5A69C7AFBF34}|src\\Core\\Restaurant.Application\\Restaurant.Application.csproj|solutionrelative:src\\core\\restaurant.application\\dtos\\genre\\genreitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0541847A-CF4A-4731-90DD-CA5C01A6508E}|src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj|c:\\users\\kubra\\onedrive\\desktop\\restaurantmanagment\\src\\core\\restaurant.domain\\models\\blogs\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0541847A-CF4A-4731-90DD-CA5C01A6508E}|src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj|solutionrelative:src\\core\\restaurant.domain\\models\\blogs\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0541847A-CF4A-4731-90DD-CA5C01A6508E}|src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj|c:\\users\\kubra\\onedrive\\desktop\\restaurantmanagment\\src\\core\\restaurant.domain\\models\\blogs\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0541847A-CF4A-4731-90DD-CA5C01A6508E}|src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj|solutionrelative:src\\core\\restaurant.domain\\models\\blogs\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0541847A-CF4A-4731-90DD-CA5C01A6508E}|src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj|c:\\users\\kubra\\onedrive\\desktop\\restaurantmanagment\\src\\core\\restaurant.domain\\models\\blogs\\blogtag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0541847A-CF4A-4731-90DD-CA5C01A6508E}|src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj|solutionrelative:src\\core\\restaurant.domain\\models\\blogs\\blogtag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0541847A-CF4A-4731-90DD-CA5C01A6508E}|src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj|c:\\users\\kubra\\onedrive\\desktop\\restaurantmanagment\\src\\core\\restaurant.domain\\models\\blogs\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0541847A-CF4A-4731-90DD-CA5C01A6508E}|src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj|solutionrelative:src\\core\\restaurant.domain\\models\\blogs\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0541847A-CF4A-4731-90DD-CA5C01A6508E}|src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj|c:\\users\\kubra\\onedrive\\desktop\\restaurantmanagment\\src\\core\\restaurant.domain\\models\\blogs\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0541847A-CF4A-4731-90DD-CA5C01A6508E}|src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj|solutionrelative:src\\core\\restaurant.domain\\models\\blogs\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7777DB3B-7F39-48A4-B145-87B767F57E87}|src\\Infrastructure\\Restaurant.Persistance\\Restaurant.Persistence.csproj|c:\\users\\kubra\\onedrive\\desktop\\restaurantmanagment\\src\\infrastructure\\restaurant.persistance\\migrations\\20250207100721_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7777DB3B-7F39-48A4-B145-87B767F57E87}|src\\Infrastructure\\Restaurant.Persistance\\Restaurant.Persistence.csproj|solutionrelative:src\\infrastructure\\restaurant.persistance\\migrations\\20250207100721_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -110,11 +178,232 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetBlogDto.cs",
+              "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Blog\\GetBlogDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Restaurant.Application\\DTOs\\Blog\\GetBlogDto.cs",
+              "ToolTip": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Blog\\GetBlogDto.cs",
+              "RelativeToolTip": "src\\Core\\Restaurant.Application\\DTOs\\Blog\\GetBlogDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:33:03.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "UpdateBlogDto.cs",
+              "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Blog\\UpdateBlogDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Restaurant.Application\\DTOs\\Blog\\UpdateBlogDto.cs",
+              "ToolTip": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Blog\\UpdateBlogDto.cs",
+              "RelativeToolTip": "src\\Core\\Restaurant.Application\\DTOs\\Blog\\UpdateBlogDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:33:24.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BlogItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Blog\\BlogItemDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Restaurant.Application\\DTOs\\Blog\\BlogItemDto.cs",
+              "ToolTip": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Blog\\BlogItemDto.cs",
+              "RelativeToolTip": "src\\Core\\Restaurant.Application\\DTOs\\Blog\\BlogItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:32:16.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetAuthorDto.cs",
+              "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Author\\GetAuthorDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Restaurant.Application\\DTOs\\Author\\GetAuthorDto.cs",
+              "ToolTip": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Author\\GetAuthorDto.cs",
+              "RelativeToolTip": "src\\Core\\Restaurant.Application\\DTOs\\Author\\GetAuthorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:34:59.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthorItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Author\\AuthorItemDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Restaurant.Application\\DTOs\\Author\\AuthorItemDto.cs",
+              "ToolTip": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Author\\AuthorItemDto.cs",
+              "RelativeToolTip": "src\\Core\\Restaurant.Application\\DTOs\\Author\\AuthorItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:34:33.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateAuthorDto.cs",
+              "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Author\\CreateAuthorDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Restaurant.Application\\DTOs\\Author\\CreateAuthorDto.cs",
+              "ToolTip": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Author\\CreateAuthorDto.cs",
+              "RelativeToolTip": "src\\Core\\Restaurant.Application\\DTOs\\Author\\CreateAuthorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:34:41.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateAuthorDto.cs",
+              "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Author\\UpdateAuthorDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Restaurant.Application\\DTOs\\Author\\UpdateAuthorDto.cs",
+              "ToolTip": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Author\\UpdateAuthorDto.cs",
+              "RelativeToolTip": "src\\Core\\Restaurant.Application\\DTOs\\Author\\UpdateAuthorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:35:19.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateBlogDto.cs",
+              "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Blog\\CreateBlogDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Restaurant.Application\\DTOs\\Blog\\CreateBlogDto.cs",
+              "ToolTip": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Blog\\CreateBlogDto.cs",
+              "RelativeToolTip": "src\\Core\\Restaurant.Application\\DTOs\\Blog\\CreateBlogDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:32:36.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateGenreDto.cs",
+              "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Genre\\CreateGenreDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Restaurant.Application\\DTOs\\Genre\\CreateGenreDto.cs",
+              "ToolTip": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Genre\\CreateGenreDto.cs",
+              "RelativeToolTip": "src\\Core\\Restaurant.Application\\DTOs\\Genre\\CreateGenreDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:35:57.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateGenreDto.cs",
+              "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Genre\\UpdateGenreDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Restaurant.Application\\DTOs\\Genre\\UpdateGenreDto.cs",
+              "ToolTip": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Genre\\UpdateGenreDto.cs",
+              "RelativeToolTip": "src\\Core\\Restaurant.Application\\DTOs\\Genre\\UpdateGenreDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:36:42.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetGenreDto.cs",
+              "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Genre\\GetGenreDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Restaurant.Application\\DTOs\\Genre\\GetGenreDto.cs",
+              "ToolTip": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Genre\\GetGenreDto.cs",
+              "RelativeToolTip": "src\\Core\\Restaurant.Application\\DTOs\\Genre\\GetGenreDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:36:32.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GenreItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Genre\\GenreItemDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Restaurant.Application\\DTOs\\Genre\\GenreItemDto.cs",
+              "ToolTip": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\DTOs\\Genre\\GenreItemDto.cs",
+              "RelativeToolTip": "src\\Core\\Restaurant.Application\\DTOs\\Genre\\GenreItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:36:23.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Domain\\Models\\Blogs\\Genre.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Restaurant.Domain\\Models\\Blogs\\Genre.cs",
+              "ToolTip": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Domain\\Models\\Blogs\\Genre.cs",
+              "RelativeToolTip": "src\\Core\\Restaurant.Domain\\Models\\Blogs\\Genre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:30:41.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BlogTag.cs",
+              "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Domain\\Models\\Blogs\\BlogTag.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Restaurant.Domain\\Models\\Blogs\\BlogTag.cs",
+              "ToolTip": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Domain\\Models\\Blogs\\BlogTag.cs",
+              "RelativeToolTip": "src\\Core\\Restaurant.Domain\\Models\\Blogs\\BlogTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:29:59.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Domain\\Models\\Blogs\\Tag.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Restaurant.Domain\\Models\\Blogs\\Tag.cs",
+              "ToolTip": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Domain\\Models\\Blogs\\Tag.cs",
+              "RelativeToolTip": "src\\Core\\Restaurant.Domain\\Models\\Blogs\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:27:51.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Domain\\Models\\Blogs\\Author.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Restaurant.Domain\\Models\\Blogs\\Author.cs",
+              "ToolTip": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Domain\\Models\\Blogs\\Author.cs",
+              "RelativeToolTip": "src\\Core\\Restaurant.Domain\\Models\\Blogs\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:27:11.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Blog.cs",
+              "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Domain\\Models\\Blogs\\Blog.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Restaurant.Domain\\Models\\Blogs\\Blog.cs",
+              "ToolTip": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Domain\\Models\\Blogs\\Blog.cs",
+              "RelativeToolTip": "src\\Core\\Restaurant.Domain\\Models\\Blogs\\Blog.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:26:18.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "RestaurantController.cs",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\presentation\\Restaurant.API\\Controllers\\RestaurantController.cs",
               "RelativeDocumentMoniker": "presentation\\Restaurant.API\\Controllers\\RestaurantController.cs",
@@ -122,12 +411,11 @@
               "RelativeToolTip": "presentation\\Restaurant.API\\Controllers\\RestaurantController.cs",
               "ViewState": "AgIAADkAAAAAAAAAAADgv3cAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T11:00:14.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T11:00:14.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\presentation\\Restaurant.API\\Program.cs",
               "RelativeDocumentMoniker": "presentation\\Restaurant.API\\Program.cs",
@@ -135,12 +423,11 @@
               "RelativeToolTip": "presentation\\Restaurant.API\\Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAEwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T10:04:53.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T10:04:53.774Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 21,
               "Title": "ReservationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Infrastructure\\Restaurant.Persistance\\Implementations\\Repositories\\ReservationRepository.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Restaurant.Persistance\\Implementations\\Repositories\\ReservationRepository.cs",
@@ -148,12 +435,11 @@
               "RelativeToolTip": "src\\Infrastructure\\Restaurant.Persistance\\Implementations\\Repositories\\ReservationRepository.cs",
               "ViewState": "AgIAAG0AAAAAAAAAAAAUwIcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T10:10:40.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T10:10:40.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 20,
               "Title": "RestaurantRepository.cs",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Infrastructure\\Restaurant.Persistance\\Implementations\\Repositories\\RestaurantRepository.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Restaurant.Persistance\\Implementations\\Repositories\\RestaurantRepository.cs",
@@ -161,12 +447,11 @@
               "RelativeToolTip": "src\\Infrastructure\\Restaurant.Persistance\\Implementations\\Repositories\\RestaurantRepository.cs",
               "ViewState": "AgIAAHgAAAAAAAAAAADgv5QAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T10:10:55.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T10:10:55.549Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 19,
               "Title": "EmailNotification.cs",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Infrastructure\\Restaurant.Persistance\\Implementations\\Repositories\\EmailNotification.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Restaurant.Persistance\\Implementations\\Repositories\\EmailNotification.cs",
@@ -174,25 +459,24 @@
               "RelativeToolTip": "src\\Infrastructure\\Restaurant.Persistance\\Implementations\\Repositories\\EmailNotification.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T11:07:19.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T11:07:19.381Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 17,
               "Title": "20250207100721_mig1.cs",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Infrastructure\\Restaurant.Persistance\\Migrations\\20250207100721_mig1.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Restaurant.Persistance\\Migrations\\20250207100721_mig1.cs",
               "ToolTip": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Infrastructure\\Restaurant.Persistance\\Migrations\\20250207100721_mig1.cs",
               "RelativeToolTip": "src\\Infrastructure\\Restaurant.Persistance\\Migrations\\20250207100721_mig1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T10:07:21.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 23,
               "Title": "ReservationController.cs",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\presentation\\Restaurant.API\\Controllers\\ReservationController.cs",
               "RelativeDocumentMoniker": "presentation\\Restaurant.API\\Controllers\\ReservationController.cs",
@@ -200,12 +484,11 @@
               "RelativeToolTip": "presentation\\Restaurant.API\\Controllers\\ReservationController.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T11:19:32.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T11:19:32.969Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 24,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\presentation\\Restaurant.API\\appsettings.json",
               "RelativeDocumentMoniker": "presentation\\Restaurant.API\\appsettings.json",
@@ -213,12 +496,11 @@
               "RelativeToolTip": "presentation\\Restaurant.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-07T10:06:39.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T10:06:39.9Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 25,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\presentation\\Restaurant.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "presentation\\Restaurant.API\\appsettings.Development.json",
@@ -226,12 +508,11 @@
               "RelativeToolTip": "presentation\\Restaurant.API\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-08T17:57:05.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T17:57:05.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 26,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Domain\\Models\\Base\\BaseEntity.cs",
               "RelativeDocumentMoniker": "src\\Core\\Restaurant.Domain\\Models\\Base\\BaseEntity.cs",
@@ -239,12 +520,11 @@
               "RelativeToolTip": "src\\Core\\Restaurant.Domain\\Models\\Base\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T17:12:41.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T17:12:41.069Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 28,
               "Title": "IReservationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\Abstractions\\Repositories\\IReservationRepository.cs",
               "RelativeDocumentMoniker": "src\\Core\\Restaurant.Application\\Abstractions\\Repositories\\IReservationRepository.cs",
@@ -256,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 29,
               "Title": "Restaurant.cs",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Domain\\Models\\Reservation\\Restaurant.cs",
               "RelativeDocumentMoniker": "src\\Core\\Restaurant.Domain\\Models\\Reservation\\Restaurant.cs",
@@ -268,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 27,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Domain\\Models\\Foods\\Product.cs",
               "RelativeDocumentMoniker": "src\\Core\\Restaurant.Domain\\Models\\Foods\\Product.cs",
@@ -280,7 +560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 30,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Infrastructure\\Restaurant.Persistance\\ServiceRegistration\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Restaurant.Persistance\\ServiceRegistration\\ServiceRegistration.cs",
@@ -288,12 +568,11 @@
               "RelativeToolTip": "src\\Infrastructure\\Restaurant.Persistance\\ServiceRegistration\\ServiceRegistration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAwAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T11:51:14.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T11:51:14.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 31,
               "Title": "ReservationService.cs",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Infrastructure\\Restaurant.Persistance\\Implementations\\Services\\ReservationService.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Restaurant.Persistance\\Implementations\\Services\\ReservationService.cs",
@@ -305,7 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 32,
               "Title": "IRestaurantService.cs",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\Abstractions\\Services\\IRestaurantService.cs",
               "RelativeDocumentMoniker": "src\\Core\\Restaurant.Application\\Abstractions\\Services\\IRestaurantService.cs",
@@ -317,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 33,
               "Title": "IReservationService.cs",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\Abstractions\\Services\\IReservationService.cs",
               "RelativeDocumentMoniker": "src\\Core\\Restaurant.Application\\Abstractions\\Services\\IReservationService.cs",
@@ -329,7 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 34,
               "Title": "RestaurantService.cs",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Infrastructure\\Restaurant.Persistance\\Implementations\\Services\\RestaurantService.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Restaurant.Persistance\\Implementations\\Services\\RestaurantService.cs",
@@ -341,7 +620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 35,
               "Title": "IEmailNotification.cs",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\Abstractions\\Repositories\\IEmailNotification.cs",
               "RelativeDocumentMoniker": "src\\Core\\Restaurant.Application\\Abstractions\\Repositories\\IEmailNotification.cs",
@@ -353,7 +632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 36,
               "Title": "DiningTable.cs",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Domain\\Models\\Reservation\\DiningTable.cs",
               "RelativeDocumentMoniker": "src\\Core\\Restaurant.Domain\\Models\\Reservation\\DiningTable.cs",
@@ -365,7 +644,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 37,
               "Title": "RestaurantBranch.cs",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Domain\\Models\\Reservation\\RestaurantBranch.cs",
               "RelativeDocumentMoniker": "src\\Core\\Restaurant.Domain\\Models\\Reservation\\RestaurantBranch.cs",
@@ -377,7 +656,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 38,
               "Title": "Reservation.cs",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Domain\\Models\\Reservation\\Reservation.cs",
               "RelativeDocumentMoniker": "src\\Core\\Restaurant.Domain\\Models\\Reservation\\Reservation.cs",
@@ -389,7 +668,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 40,
               "Title": "IRestaurantRepository.cs",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Application\\Abstractions\\Repositories\\IRestaurantRepository.cs",
               "RelativeDocumentMoniker": "src\\Core\\Restaurant.Application\\Abstractions\\Repositories\\IRestaurantRepository.cs",
@@ -401,7 +680,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 39,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Infrastructure\\Restaurant.Persistance\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Restaurant.Persistance\\Context\\AppDbContext.cs",
@@ -413,7 +692,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 41,
               "Title": "Restaurant.Persistence.csproj",
               "DocumentMoniker": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Infrastructure\\Restaurant.Persistance\\Restaurant.Persistence.csproj",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Restaurant.Persistance\\Restaurant.Persistence.csproj",
