@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Include="Models\Team\Position.cs" />
-  </ItemGroup>
-
 </Project>

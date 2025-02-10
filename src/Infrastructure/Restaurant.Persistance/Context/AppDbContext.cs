@@ -1,13 +1,7 @@
 ﻿
-using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 using Restaurant.Domain.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Restaurant.Persistence.Context
 {
@@ -15,13 +9,13 @@ namespace Restaurant.Persistence.Context
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public DbSet<DiningTable> DiningTables { get; set; }
-        public DbSet<Reservation> Reservations { get; set; }
-        public DbSet<Restaurant.Domain.Models.Restaurant> Restaurants { get; set; }
-        public DbSet<RestaurantBranch> RestaurantBranches { get; set; }
-        public DbSet<TimeSlot> TimeSlots { get; set; }
-
         public DbSet<User> Users { get; set; }
+      public DbSet<Author> Authors{ get; set; }
+        public DbSet<Genre> Genres { get; set; }
+        public DbSet<Tag> Tags { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
+        public DbSet<BlogTag>BlogTags { get; set; }
+
 
 
     }

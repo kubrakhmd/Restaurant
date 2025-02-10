@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Restaurant.Domain.Models
 {
-     public class Tag
+     public class Tag:BaseEntity
     {
         public string Name { get; set; }    
-        public ICollection<BlogTags> BlogTags { get; set; }
+        public ICollection<BlogTag> BlogTags { get; set; }
     }
 }

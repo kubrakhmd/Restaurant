@@ -16,6 +16,6 @@ namespace Restaurant.Domain.Models
         public Genre Genre { get; set; }
         public int AuthorId { get; set; }
         public int GenreId { get; set; }
-        public ICollection<BlogTags> BlogTags { get; set; }
+        public ICollection<BlogTag> BlogTags { get; set; }
     }
 }

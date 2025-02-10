@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "z/lDx15zaIw=",
+  "dgSpecHash": "Cfg2LFXHFPU=",
   "success": true,
   "projectFilePath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Infrastructure\\Restaurant.Persistance\\Restaurant.Persistence.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Kubra\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Kubra\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Kubra\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\Kubra\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\Kubra\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Kubra\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\Kubra\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
