@@ -1,29 +1,45 @@
 ﻿
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Identity;
 namespace Restaurant.Domain.Models
 {
-   public class User
+    public class User : IdentityUser
     {
-        public int Id { get; set; }
+        public long IdNumber { get; set; }
+        public string Name { get; set; } = "";
+        public string? MiddleName { get; set; }
+        public string? FamilyName { get; set; }
+        public string Address { get; set; } = "";
+        public bool Gender { get; set; }
+        public DateTime BirthDate { get; set; }
+        public DateTime RegisterDate { get; set; }
+        public byte Status { get; set; }
+        [NotMapped]
+        public string? Password { get; set; }
 
-        [Required]
-        [MaxLength(50)]
-        public string FirstName { get; set; } = null!;
-        [Required]
-        [MaxLength(50)]
-        public string LastName { get; set; } = null!;
-        [Required]
-        [MaxLength(100)]
-        public string Email { get; set; } = null!;
+        [NotMapped]  
+        [Compare(nameof(Password))]
+        public string? ConfirmPassword { get; set; }
 
-        [MaxLength(128)]
-        public string? AdObjId { get; set; }
-        [MaxLength(512)]
-        public string? ProfileImageUrl { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public DateTime UpdatedDate { get; set; }
+        public bool IsActive { get; set; } = true; 
 
-        public virtual ICollection<Reservation> Reservations { get; set; } = new List<Reservation>();
-    
+
+    }
+
+    public class Person
+    {
+        [Key]
+        public string Id { get; set; } = "";
+
+        [StringLength(500)]
+        public string? CoverImageUrl { get; set; } 
+
+        [ForeignKey(nameof(Id))]
+        public User? ApplicationUser { get; set; }
+
+    }
+
+
 }
-}
+
