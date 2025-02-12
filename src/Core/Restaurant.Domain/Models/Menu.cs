@@ -16,6 +16,6 @@ namespace Restaurant.Domain.Models
      
         public decimal Price { get; set; }
 
-        public bool IsAvailable { get; set; }
+
     }
 }

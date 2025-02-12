@@ -18,6 +18,7 @@ namespace Restaurant.Persistence.Context
         public DbSet<QR>QRs { get; set; }
 
         public DbSet<Food> Foods { get; set; }  
+        public DbSet<Restaurants> Restaurants { get; set; }
 
     }
 }
