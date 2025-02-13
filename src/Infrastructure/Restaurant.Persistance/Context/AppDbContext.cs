@@ -19,7 +19,7 @@ namespace Restaurant.Persistence.Context
 
         public DbSet<Food> Foods { get; set; }  
         public DbSet<Restaurants> Restaurants { get; set; }
-
+        public DbSet <Menu> Menus { get; set; }
     }
 }
     

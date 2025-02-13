@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Restaurant.Application.Abstractions.Repositories;
@@ -48,7 +44,7 @@ namespace Restaurant.Persistence.Implementations.Services
             Genre genre = _mapper.Map<Genre>(genreDto);
 
             genre.CreatedAt = DateTime.Now;
-           
+           genre.UpdatedAt = DateTime.Now;
             await _repository.AddAsync(genre);
             await _repository.SaveChangesAsync();
         }

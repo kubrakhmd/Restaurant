@@ -1,13 +1,11 @@
 ﻿
-using System.Drawing;
-using System.Reflection.Metadata;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Restaurant.Application.Abstractions.Repositories;
 using Restaurant.Application.Abstractions.Services;
 using Restaurant.Application.DTOs;
 using Restaurant.Domain.Models;
-using Restaurant.Persistence.Implementations.Repostories.Generic;
+
 
 namespace Restaurant.Persistence.Implementations.Services
 {
