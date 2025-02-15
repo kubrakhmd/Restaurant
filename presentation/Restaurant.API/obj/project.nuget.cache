@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xNkA9TxGmLg=",
+  "dgSpecHash": "FlzppdIpilA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\presentation\\Restaurant.API\\Restaurant.API.csproj",
+  "projectFilePath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\presentation\\Restaurant.API\\Restaurant.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kubra\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Kubra\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
@@ -93,6 +93,7 @@
     "C:\\Users\\Kubra\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.12\\microsoft.entityframeworkcore.design.8.0.12.nupkg.sha512",
     "C:\\Users\\Kubra\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.12\\microsoft.entityframeworkcore.relational.8.0.12.nupkg.sha512",
     "C:\\Users\\Kubra\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.12\\microsoft.entityframeworkcore.sqlserver.8.0.12.nupkg.sha512",
+    "C:\\Users\\Kubra\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.12\\microsoft.entityframeworkcore.tools.8.0.12.nupkg.sha512",
     "C:\\Users\\Kubra\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Kubra\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Kubra\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.1\\microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",

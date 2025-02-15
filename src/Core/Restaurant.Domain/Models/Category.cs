@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Restaurant.Domain.Models
 {
-public  class Category
+public  class Category: BaseEntity
     {
+        public string Name { get; set; }
+        public ICollection<Food> Foods { get; set; }
     }
 }

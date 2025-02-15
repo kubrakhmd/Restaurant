@@ -11,3 +11,16 @@ C:\Users\Kubra\OneDrive\Desktop\RestaurantManagment\src\Core\Restaurant.Domain\o
 C:\Users\Kubra\OneDrive\Desktop\RestaurantManagment\src\Core\Restaurant.Domain\obj\Debug\net8.0\Restaurant.Domain.pdb
 C:\Users\Kubra\OneDrive\Desktop\RestaurantManagment\src\Core\Restaurant.Domain\obj\Debug\net8.0\ref\Restaurant.Domain.dll
 C:\Users\Kubra\OneDrive\Desktop\RestaurantManagment\src\Core\Restaurant.Domain\obj\Debug\net8.0\Restaurant.Domain.csproj.AssemblyReference.cache
+C:\Users\Kubra\OneDrive\Desktop\Restaurant\src\Core\Restaurant.Domain\bin\Debug\net8.0\Restaurant.Domain.deps.json
+C:\Users\Kubra\OneDrive\Desktop\Restaurant\src\Core\Restaurant.Domain\bin\Debug\net8.0\Restaurant.Domain.dll
+C:\Users\Kubra\OneDrive\Desktop\Restaurant\src\Core\Restaurant.Domain\bin\Debug\net8.0\Restaurant.Domain.pdb
+C:\Users\Kubra\OneDrive\Desktop\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\Restaurant.Domain.csproj.AssemblyReference.cache
+C:\Users\Kubra\OneDrive\Desktop\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\Restaurant.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kubra\OneDrive\Desktop\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\Restaurant.Domain.AssemblyInfoInputs.cache
+C:\Users\Kubra\OneDrive\Desktop\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\Restaurant.Domain.AssemblyInfo.cs
+C:\Users\Kubra\OneDrive\Desktop\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\Restaurant.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Kubra\OneDrive\Desktop\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\Restaurant.Domain.sourcelink.json
+C:\Users\Kubra\OneDrive\Desktop\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\Restaurant.Domain.dll
+C:\Users\Kubra\OneDrive\Desktop\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\refint\Restaurant.Domain.dll
+C:\Users\Kubra\OneDrive\Desktop\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\Restaurant.Domain.pdb
+C:\Users\Kubra\OneDrive\Desktop\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\ref\Restaurant.Domain.dll

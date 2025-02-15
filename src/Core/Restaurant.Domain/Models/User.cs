@@ -2,9 +2,10 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Identity;
+using Restaurant.Domain.Enums;
 namespace Restaurant.Domain.Models
 {
-    public class User : IdentityUser
+    public class AppUser : IdentityUser
     {
         public long IdNumber { get; set; }
         public string Name { get; set; } = "";
@@ -23,20 +24,28 @@ namespace Restaurant.Domain.Models
         public string? ConfirmPassword { get; set; }
 
         public bool IsActive { get; set; } = true; 
-
+        public List<OrderItem>Orders { get; set; }
 
     }
 
-    public class Person
+    public class    User
     {
-        [Key]
-        public string Id { get; set; } = "";
+        
+        public int Id { get; set; }
 
-        [StringLength(500)]
-        public string? CoverImageUrl { get; set; } 
+        public string UserName { get; set; }
+        [Required, EmailAddress]
+        public string Email { get; set; }
+        [Required]
+        public string PasswordHash { get; set; }
+        [Required, StringLength(20)]
+        public UserRole Role { get; set; }
+        public string? ResetToken { get; set; }
+        public DateTime? ResetTokenExpiry
+        { get; set; }
 
-        [ForeignKey(nameof(Id))]
-        public User? ApplicationUser { get; set; }
+
+        public  AppUser? ApplicationUser { get; set; }
 
     }
 

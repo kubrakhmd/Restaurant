@@ -2,7 +2,7 @@
 
 namespace Restaurant.Domain.Models
 {
-     public class Restaurants:BaseEntity
+     public class RestaurantHome:BaseEntity
     {
       
         public string Name { get; set; } = "";

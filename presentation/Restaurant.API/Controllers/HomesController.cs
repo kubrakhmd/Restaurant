@@ -9,35 +9,35 @@ namespace Restaurant.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class RestaurantsController : ControllerBase
+    public class HomesController : ControllerBase
     {
         private readonly AppDbContext _context;
 
-        public RestaurantsController(AppDbContext context)
+        public HomesController(AppDbContext context)
         {
             _context = context;
         }
 
         // GET: api/Restaurants
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Restaurants>>> GetRestaurants()
+        public async Task<ActionResult<IEnumerable<RestaurantHome>>> GetRestaurants()
         {
-            if (_context.Restaurants == null)
+            if (_context.RestaurantHomes == null)
             {
                 return NotFound();
             }
-            return await _context.Restaurants.ToListAsync();
+            return await _context.RestaurantHomes.ToListAsync();
         }
 
         // GET: api/Restaurants/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Restaurants>> GetRestaurant(int id)
+        public async Task<ActionResult<RestaurantHome>> GetRestaurant(int id)
         {
-            if (_context.Restaurants == null)
+            if (_context.RestaurantHomes == null)
             {
                 return NotFound();
             }
-            var restaurant = await _context.Restaurants.FindAsync(id);
+            var restaurant = await _context.RestaurantHomes.FindAsync(id);
 
             if (restaurant == null)
             {
@@ -51,7 +51,7 @@ namespace Restaurant.API.Controllers
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [Authorize(Roles = "Admin,Person")]
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutRestaurant(int id, Restaurants restaurant)
+        public async Task<IActionResult> PutRestaurant(int id, RestaurantHome restaurant)
         {
             if (id != restaurant.Id)
             {
@@ -83,13 +83,13 @@ namespace Restaurant.API.Controllers
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [Authorize(Roles = "Admin,Person")]
         [HttpPost]
-        public async Task<ActionResult<Restaurants>> PostRestaurant(Restaurants restaurant)
+        public async Task<ActionResult<RestaurantHome>> PostRestaurant(RestaurantHome restaurant)
         {
-            if (_context.Restaurants == null)
+            if (_context.RestaurantHomes == null)
             {
                 return Problem("Entity set 'AppDbContext.Restaurants'  is null.");
             }
-            _context.Restaurants.Add(restaurant);
+            _context.RestaurantHomes.Add(restaurant);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetRestaurant", new { id = restaurant.Id }, restaurant);
@@ -101,17 +101,17 @@ namespace Restaurant.API.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteRestaurant(int id)
         {
-            if (_context.Restaurants == null)
+            if (_context.RestaurantHomes == null)
             {
                 return NotFound();
             }
-            var restaurant = await _context.Restaurants.FindAsync(id);
+            var restaurant = await _context.RestaurantHomes.FindAsync(id);
             if (restaurant == null)
             {
                 return NotFound();
             }
 
-            _context.Restaurants.Remove(restaurant);
+            _context.RestaurantHomes.Remove(restaurant);
             await _context.SaveChangesAsync();
 
             return NoContent();
@@ -119,7 +119,7 @@ namespace Restaurant.API.Controllers
 
         private bool RestaurantExists(int id)
         {
-            return (_context.Restaurants?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.RestaurantHomes?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

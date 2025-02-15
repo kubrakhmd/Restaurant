@@ -7,8 +7,7 @@ namespace Restaurant.Domain.Models
 {
     public class OrderItem : BaseEntity
     {
-        [Required]
-        public int OrderId { get; set; }
+   
         [Required]
         public int MenuItemId { get; set; }
         [Required]
@@ -17,7 +16,7 @@ namespace Restaurant.Domain.Models
         public decimal UnitPrice { get; set; }
 
 
-        [ForeignKey(nameof(OrderId))]
+       public int OrderId { get; set; }
         public Order Order { get; set; }
 
         [ForeignKey(nameof(MenuItemId))]

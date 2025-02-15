@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj": {}
+    "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj": {
+    "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj",
         "projectName": "Restaurant.Domain",
-        "projectPath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj",
+        "projectPath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj",
         "packagesPath": "C:\\Users\\Kubra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\RestaurantManagment\\src\\Core\\Restaurant.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Core\\Restaurant.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

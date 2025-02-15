@@ -40,8 +40,8 @@ namespace Restaurant.Persistence.Implementations.Services
           
         public async Task CreateAsync(CreateBlogDto blogDto)
         {
-            var tagEntities = await _repository.GetManyToManyEntities<Tag>(blogDto.TagIds);
-            if (tagEntities.Count() != blogDto.TagIds.Distinct().Count())
+            var tagModels = await _repository.GetManyToManyEntities<Tag>(blogDto.TagIds);
+            if (tagModels.Count() != blogDto.TagIds.Distinct().Count())
                 throw new Exception("Tag id is wrong");
             Blog blog = _mapper.Map<Blog>(blogDto);
 
@@ -59,8 +59,8 @@ namespace Restaurant.Persistence.Implementations.Services
             if (await _repository.AnyAsync(c => c.Id != id)) throw new Exception("Already exists");
             ICollection<int> createItems3 = blogDto.TagIds
              .Where(cId => !blog.BlogTags.Any(pt => pt.TagId == cId)).ToList();
-            var tagEntities = await _repository.GetManyToManyEntities<Tag>(createItems3);
-            if (tagEntities.Count() != createItems3.Distinct().Count())
+            var tagModels = await _repository.GetManyToManyEntities<Tag>(createItems3);
+            if (tagModels.Count() != createItems3.Distinct().Count())
                 throw new Exception("One or more tag id is wrong");
             blog = _mapper.Map(blogDto, blog);
             blog.Article = blogDto.Article;
