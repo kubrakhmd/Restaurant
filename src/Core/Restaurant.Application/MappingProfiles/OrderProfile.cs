@@ -20,7 +20,7 @@ namespace Restaurant.Application.MappingProfiles
             CreateMap<Order, ShowOrder>()
             .ForMember(dest => dest.UserInfo, opt => opt.MapFrom(src => new UserInfoDto
             {
-                Id = src.User.Id,
+              
                 UserName = src.User.UserName,
                 Email = src.User.Email
             }))
