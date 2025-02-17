@@ -43,6 +43,7 @@ namespace Restaurant.Domain.Models
         public string? ResetToken { get; set; }
         public DateTime? ResetTokenExpiry
         { get; set; }
+        public List<Rezervation> Rezervation { get; set; }
 
 
         public  AppUser? ApplicationUser { get; set; }

@@ -25,6 +25,8 @@ namespace Restaurant.Persistence.Context
         public DbSet<RestaurantHome> RestaurantHomes { get; set; }
         public DbSet <Menu> Menus { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<RestaurantTable> Tables { get; set; }    
+        public DbSet<Rezervation> Rezervations { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyQueryFilters();

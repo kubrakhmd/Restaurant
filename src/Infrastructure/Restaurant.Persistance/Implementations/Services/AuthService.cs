@@ -24,9 +24,8 @@ namespace Restaurant.Persistence.Implementations.Services
             private readonly IConfiguration _configuration;
             private readonly SignInManager<AppUser> _signInManager;
             private readonly IMapper _mapper;
-      
-            public AuthService(AppDbContext context, IConfiguration configuration, SignInManager<AppUser> signInManager, IMapper mapper, Responses responses)
-            {
+
+        public AuthService(AppDbContext context, IConfiguration configuration, SignInManager<AppUser> signInManager, IMapper mapper) { 
                 _context = context;
                 _configuration = configuration;
                 _signInManager = signInManager;

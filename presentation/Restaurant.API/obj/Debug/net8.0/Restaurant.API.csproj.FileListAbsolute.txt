@@ -608,3 +608,7 @@ C:\Users\Kubra\OneDrive\Desktop\Restaurant\presentation\Restaurant.API\obj\Debug
 C:\Users\Kubra\OneDrive\Desktop\Restaurant\presentation\Restaurant.API\obj\Debug\net8.0\Restaurant.API.pdb
 C:\Users\Kubra\OneDrive\Desktop\Restaurant\presentation\Restaurant.API\obj\Debug\net8.0\Restaurant.API.genruntimeconfig.cache
 C:\Users\Kubra\OneDrive\Desktop\Restaurant\presentation\Restaurant.API\obj\Debug\net8.0\ref\Restaurant.API.dll
+C:\Users\Kubra\OneDrive\Desktop\Restaurant\presentation\Restaurant.API\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\Kubra\OneDrive\Desktop\Restaurant\presentation\Restaurant.API\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Kubra\OneDrive\Desktop\Restaurant\presentation\Restaurant.API\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Kubra\OneDrive\Desktop\Restaurant\presentation\Restaurant.API\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
