@@ -1,4 +1,4 @@
-using System.Drawing;
+﻿using System.Drawing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using NuGet.Configuration;
@@ -15,6 +15,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Restaurant.Domain.Models;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -47,6 +48,19 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("Admin", policy => policy.RequireRole("Admin"));
     options.AddPolicy("Customer", policy => policy.RequireRole("Customer"));
 });
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "QR API",
+        Version = "v1",
+        Description = "QR menyu üçün API"
+    });
+
+    // XML sənədləşdirməni əlavə edirik
+    var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
+});
 
 
 builder.Services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>()
@@ -67,11 +81,20 @@ var app = builder.Build();
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
         {
-            app.UseSwagger();
-            app.UseSwaggerUI();
-        }
+            
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "QR API v1");
+        c.InjectStylesheet("/swagger-ui/custom.css"); // Əgər CSS əlavə etmək istəyirsinizsə
+        c.InjectJavascript("/swagger-ui/index.html"); // Custom Swagger UI yüklənməsi
+    });
 
-        app.UseHttpsRedirection();
+}
+app.UseStaticFiles(); // wwwroot içindəki statik faylları aktiv edir
+
+
+app.UseHttpsRedirection();
 
         app.UseAuthorization();
 

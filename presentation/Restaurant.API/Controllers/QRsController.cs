@@ -117,69 +117,98 @@ namespace QRAPI.Controllers
             return NoContent();
         }
 
+        /// <summary>
+        /// QR kod yaradır və Swagger UI-də birbaşa göstərir.
+        /// </summary>
+        /// <param name="productType">Məhsul növü (məs., "food")</param>
+        /// <param name="categoryId">Kateqoriya ID-si</param>
+        /// <returns>QR kod Base64 formatında</returns>
+        /// <response code="200">QR kod Base64 string şəklində qaytarılır.</response>
+        /// <response code="404">Kateqoriya tapılmadı.</response>
         [Authorize(Roles = "Admin")]
         [HttpPost("QRCodeGenerator/{productType}/{categoryId}")]
         public async Task<IActionResult> Generate(string productType, short categoryId)
         {
-         
-            string qrCodeContent = string.Empty;
-
-            switch (productType.ToLower())
+            string qrCodeContent = await GenerateQrCodeContent(productType, categoryId);
+            if (string.IsNullOrEmpty(qrCodeContent))
             {
-                case "food":
-                    var foods = await _context.Foods
-                        .Where(f => f.CategoryID == categoryId) 
-                        .Include(f => f.Category) 
-                        .ToListAsync();
-
-                    if (!foods.Any())
-                    {
-                        return NotFound("No foods found for this category.");
-                    }
-
-                    qrCodeContent = $"Category ID: {categoryId}\n" +
-                                    $"Foods:\n" +
-                                    $"{string.Join("\n", foods.Select(f => $"-Name: {f.Name},Description: {f.Description}, Price: ${f.Price}"))}";
-                    break;  
-
+                return NotFound("No foods found for this category.");
             }
 
-            byte[] qrCodeBytes;
+            byte[] qrCodeBytes = GenerateQrCodeImage(qrCodeContent);
+            string base64Image = Convert.ToBase64String(qrCodeBytes);
 
-           
+            return Ok(new
+            {
+                ImageUrl = $"data:image/png;base64,{base64Image}"
+            });
+        }
+
+        /// <summary>
+        /// QR kod məzmununu yaradır.
+        /// </summary>
+        private async Task<string> GenerateQrCodeContent(string productType, short categoryId)
+        {
+            if (productType.ToLower() == "food")
+            {
+                var foods = await _context.Foods
+                    .Where(f => f.CategoryID == categoryId)
+                    .Include(f => f.Category)
+                    .ToListAsync();
+
+                if (!foods.Any())
+                {
+                    return string.Empty;
+                }
+
+                return $"Category ID: {categoryId}\n" +
+                       $"Foods:\n" +
+                       $"{string.Join("\n", foods.Select(f => $"-Name: {f.Name},Description: {f.Description}, Price: ${f.Price}"))}";
+            }
+
+            return string.Empty;
+        }
+
+        /// <summary>
+        /// QR kod PNG şəklini yaradır.
+        /// </summary>
+        private byte[] GenerateQrCodeImage(string content)
+        {
             using (var qrGenerator = new QRCodeGenerator())
             {
-                var qrCodeData = qrGenerator.CreateQrCode(qrCodeContent, QRCodeGenerator.ECCLevel.Q);
+                var qrCodeData = qrGenerator.CreateQrCode(content, QRCodeGenerator.ECCLevel.Q);
                 var qrCode = new BitmapByteQRCode(qrCodeData);
-
-     
-                var qrCodeImage = qrCode.GetGraphic(5);
+                var qrCodeImage = qrCode.GetGraphic(20);
 
                 using (var skBitmap = SKBitmap.Decode(qrCodeImage))
                 {
+                    using (var skCanvas = new SKCanvas(skBitmap))
+                    {
+                        // Loqo faylını oxuyuruq
+                        string logoPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "logo.png");
+                        if (System.IO.File.Exists(logoPath))
+                        {
+                            using (var logoBitmap = SKBitmap.Decode(logoPath))
+                            {
+                                int logoSize = skBitmap.Width / 5; // Loqonun ölçüsünü müəyyən edirik (QR kodun 1/5 hissəsi)
+                                int x = (skBitmap.Width - logoSize) / 2;
+                                int y = (skBitmap.Height - logoSize) / 2;
+
+                                var resizedLogo = logoBitmap.Resize(new SKImageInfo(logoSize, logoSize), SKFilterQuality.High);
+                                skCanvas.DrawBitmap(resizedLogo, x, y);
+                            }
+                        }
+                    }
+
                     using (var stream = new MemoryStream())
                     {
                         skBitmap.Encode(stream, SKEncodedImageFormat.Png, 100);
-                        qrCodeBytes = stream.ToArray();
+                        return stream.ToArray();
                     }
                 }
             }
-
-            var qr = new QR
-            {
-                Content = qrCodeContent,
-                QRCodeData = Convert.ToBase64String(qrCodeBytes),  
-                ProductType = productType,
-                ProductId = categoryId, 
-
-            };
-
-            _context.QRs.Add(qr);
-            await _context.SaveChangesAsync();
-
-
-            return File(qrCodeBytes, "image/png");
         }
+
 
 
 

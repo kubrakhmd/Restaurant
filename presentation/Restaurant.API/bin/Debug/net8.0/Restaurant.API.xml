@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Restaurant.API</name>
+    </assembly>
+    <members>
+        <member name="M:QRAPI.Controllers.QRsController.Generate(System.String,System.Int16)">
+            <summary>
+            QR kod yaradır və Swagger UI-də birbaşa göstərir.
+            </summary>
+            <param name="productType">Məhsul növü (məs., "food")</param>
+            <param name="categoryId">Kateqoriya ID-si</param>
+            <returns>QR kod Base64 formatında</returns>
+            <response code="200">QR kod Base64 string şəklində qaytarılır.</response>
+            <response code="404">Kateqoriya tapılmadı.</response>
+        </member>
+        <member name="M:QRAPI.Controllers.QRsController.GenerateQrCodeContent(System.String,System.Int16)">
+            <summary>
+            QR kod məzmununu yaradır.
+            </summary>
+        </member>
+        <member name="M:QRAPI.Controllers.QRsController.GenerateQrCodeImage(System.String)">
+            <summary>
+            QR kod PNG şəklini yaradır.
+            </summary>
+        </member>
+    </members>
+</doc>

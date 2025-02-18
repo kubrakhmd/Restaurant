@@ -29,5 +29,9 @@
     <ProjectReference Include="..\..\src\Infrastructure\Restaurant.Infrastructure\Restaurant.Infrastructure.csproj" />
     <ProjectReference Include="..\..\src\Infrastructure\Restaurant.Persistance\Restaurant.Persistence.csproj" />
   </ItemGroup>
+	<PropertyGroup>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<NoWarn>1591</NoWarn>
+	</PropertyGroup>
 
 </Project>

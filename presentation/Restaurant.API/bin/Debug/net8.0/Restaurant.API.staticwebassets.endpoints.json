@@ -1,5 +1,170 @@
 {
   "Version": 1,
   "ManifestType": "Build",
-  "Endpoints": []
+  "Endpoints": [
+    {
+      "Route": "Images/Logo.c1c1pg5hnb.png",
+      "AssetFile": "Images/Logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3827"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0IPTme/iEz6xWA9ozob0ec6jL3WDDBV5+VJq9V5S3LM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 19:28:50 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c1c1pg5hnb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0IPTme/iEz6xWA9ozob0ec6jL3WDDBV5+VJq9V5S3LM="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Logo.png"
+        }
+      ]
+    },
+    {
+      "Route": "Images/Logo.png",
+      "AssetFile": "Images/Logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3827"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0IPTme/iEz6xWA9ozob0ec6jL3WDDBV5+VJq9V5S3LM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 19:28:50 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0IPTme/iEz6xWA9ozob0ec6jL3WDDBV5+VJq9V5S3LM="
+        }
+      ]
+    },
+    {
+      "Route": "Swagger-ui/Index.hd723uhl5w.html",
+      "AssetFile": "Swagger-ui/Index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1fxNGZ94bc054A5LjzDskANOb9QfoB7N0mDopCu3EmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 19:07:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hd723uhl5w"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1fxNGZ94bc054A5LjzDskANOb9QfoB7N0mDopCu3EmA="
+        },
+        {
+          "Name": "label",
+          "Value": "Swagger-ui/Index.html"
+        }
+      ]
+    },
+    {
+      "Route": "Swagger-ui/Index.html",
+      "AssetFile": "Swagger-ui/Index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1fxNGZ94bc054A5LjzDskANOb9QfoB7N0mDopCu3EmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 19:07:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1fxNGZ94bc054A5LjzDskANOb9QfoB7N0mDopCu3EmA="
+        }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,2 @@
+wwwroot\Images\Logo.png
+wwwroot\Swagger-ui\Index.html

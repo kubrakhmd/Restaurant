@@ -1,7 +1,11 @@
 ﻿
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Restaurant.Application.Abstractions.Services;
 using Restaurant.Application.DTOs.Menu;
+using Restaurant.Domain.Models;
+using Restaurant.Persistence.Context;
 
 namespace Restaurant.API.Controllers
 {
@@ -9,61 +13,114 @@ namespace Restaurant.API.Controllers
     [ApiController]
     public class MenusController : ControllerBase
     {
-        private readonly IMenuService _menuService;
+        private readonly AppDbContext _context;
 
-        public MenusController(IMenuService menuService)
+        public MenusController(AppDbContext context)
         {
-            _menuService = menuService;
+            _context = context;
         }
 
-        // GET: api/MenuItems
+        // GET: api/Menus
         [HttpGet]
-        public async Task<IActionResult> GetMenuItems(int page,int take)
+        public async Task<ActionResult<IEnumerable<Menu>>> GetMenus()
         {
-            return Ok(await _menuService.GetAllMenuItem(page, take));
+            if (_context.Menus == null)
+            {
+                return NotFound();
+            }
+            return await _context.Menus.ToListAsync();
         }
 
-        // GET: api/MenuItems/{id}
+        // GET: api/Menus/5
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetMenuItem(int id)
+        public async Task<ActionResult<Menu>> GetMenu(int id)
         {
-            return Ok (await _menuService.GetMenuItemById(id));
+            if (_context.Menus == null)
+            {
+                return NotFound();
+            }
+            var menu = await _context.Menus.FindAsync(id);
+
+            if (menu == null)
+            {
+                return NotFound();
+            }
+
+            return menu;
         }
 
-        // GET: api/MenuItems/name/{name}
-        [HttpGet("name/{name}")]
-        public async Task<IActionResult> SearchMenuItemByName(string name)
+        // PUT: api/Menus/5
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [Authorize(Roles = "Admin,Person")]
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutMenu(int id, Menu menu)
         {
-            return Ok (await _menuService.GetMenuItemByName(name));
-        }
+            if (id != menu.Id)
+            {
+                return BadRequest();
+            }
 
-        // POST: api/MenuItems
-        [HttpPost("create")]
-        //[Authorize(Roles = "Admin")] 
-        public async Task<IActionResult> CreateMenuItem([FromBody] MenuItem menuItemDto)
-        {
-            await _menuService.CreateMenuItem(menuItemDto);
-            return Created() ;
-        }
+            _context.Entry(menu).State = EntityState.Modified;
 
-        // PUT: api/MenuItems/update/{id}
-        [HttpPut("update/{id}")]
-        //[Authorize(Roles = "Admin")] 
-        public async Task<IActionResult> UpdateMenuItem(int id, [FromBody] MenuItem menuItemDto)
-        {
-            if (id < 1) return BadRequest();
-            await _menuService.UpdateMenuItem(id, menuItemDto);
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!MenuExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
             return NoContent();
         }
 
-        // DELETE: api/MenuItems/delete/{id}
-        [HttpDelete("delete/{id}")]
-        //[Authorize(Roles = "Admin")] 
-        public async Task<IActionResult> DeleteMenuItem(int id)
+        // POST: api/Menus
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [Authorize(Roles = "Admin,Person")]
+        [HttpPost]
+        public async Task<ActionResult<Menu>> PostMenu(Menu menu)
         {
-            await _menuService.DeleteMenuItem(id);
+            if (_context.Menus == null)
+            {
+                return Problem("Entity set 'ApplicationContext.Menus'  is null.");
+            }
+            _context.Menus.Add(menu);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction("GetMenu", new { id = menu.Id }, menu);
+        }
+
+        // DELETE: api/Menus/5
+        [Authorize(Roles = "Admin,Person")]
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteMenu(int id)
+        {
+            if (_context.Menus == null)
+            {
+                return NotFound();
+            }
+            var menu = await _context.Menus.FindAsync(id);
+            if (menu == null)
+            {
+                return NotFound();
+            }
+
+            _context.Menus.Remove(menu);
+            await _context.SaveChangesAsync();
+
             return NoContent();
+        }
+
+        private bool MenuExists(int id)
+        {
+            return (_context.Menus?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }
-
