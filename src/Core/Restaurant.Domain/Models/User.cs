@@ -23,12 +23,13 @@ namespace Restaurant.Domain.Models
         [Compare(nameof(Password))]
         public string? ConfirmPassword { get; set; }
 
-        public bool IsActive { get; set; } = true; 
-        public List<OrderItem>Orders { get; set; }
+        public bool IsActive { get; set; } = true;
+        public Order Order { get; set; }
+        //public List<OrderItem>Orders { get; set; }
 
     }
 
-    public class    User
+    public class User
     {
         
         public int Id { get; set; }

@@ -24,7 +24,7 @@ namespace Restaurant.Persistence.Implementations.Services
         {
             try
             {
-                var orderItems = await _context.OrderItems.Include(oi => oi.Order).Include(oi => oi.MenuItem).ToListAsync();
+                var orderItems = await _context.OrderItems.Include(oi => oi.Order).Include(oi => oi.Food).ToListAsync();
             
             }
             catch (DbUpdateException ex)
@@ -40,7 +40,7 @@ namespace Restaurant.Persistence.Implementations.Services
         {
             try
             {
-                var orderItem = await _context.OrderItems.Include(oi => oi.Order).Include(oi => oi.MenuItem).FirstOrDefaultAsync(oi => oi.Id == id);
+                var orderItem = await _context.OrderItems.Include(oi => oi.Order).Include(oi => oi.Food).FirstOrDefaultAsync(oi => oi.Id == id);
                 if (orderItem == null)
                 {
                     throw new Exception("Not Found");
@@ -60,7 +60,7 @@ namespace Restaurant.Persistence.Implementations.Services
         {
             try
             {
-                var orderItems = await _context.OrderItems.Where(oi => oi.OrderId == orderId).Include(oi => oi.MenuItem).ToListAsync();
+                var orderItems = await _context.OrderItems.Where(oi => oi.OrderId == orderId).Include(oi => oi.Food).ToListAsync();
                 if (orderItems == null)
                 {
                     throw new Exception("Not Found");

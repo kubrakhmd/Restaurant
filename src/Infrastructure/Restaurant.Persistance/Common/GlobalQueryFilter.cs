@@ -16,7 +16,8 @@ namespace Restaurant.Persistence.Common
         {
             modelBuilder.ApplyFilter<Category>();
             modelBuilder.ApplyFilter<Menu>();
-            modelBuilder.ApplyFilter<RestaurantHome>();
+            modelBuilder.ApplyFilter<Order>();
+            modelBuilder.ApplyFilter<OrderItem>();
             modelBuilder.ApplyFilter<Tag>();
             modelBuilder.ApplyFilter<Food>();
             modelBuilder.ApplyFilter<Genre>();

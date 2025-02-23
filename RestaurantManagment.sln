@@ -9,8 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{3CA15D4C-3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{6C1C0078-A300-4B47-A6CF-C1629F5F8FDC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4BE44568-F78D-417C-A46D-D69833B352F8}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "presentation", "presentation", "{D92B0DB2-6E54-4BAA-855B-14799CF2CD19}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurant.Domain", "src\Core\Restaurant.Domain\Restaurant.Domain.csproj", "{0541847A-CF4A-4731-90DD-CA5C01A6508E}"

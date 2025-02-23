@@ -240,7 +240,7 @@ namespace Restaurant.Persistence.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("CategoryID")
+                    b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
                     b.Property<string>("CoverImageUrl")
@@ -270,7 +270,7 @@ namespace Restaurant.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CategoryID");
+                    b.HasIndex("CategoryId");
 
                     b.HasIndex("MenuId");
 
@@ -318,32 +318,92 @@ namespace Restaurant.Persistence.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(6,2)");
-
-                    b.Property<int?>("RestaurantsId")
-                        .HasColumnType("int");
 
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("RestaurantsId");
-
                     b.ToTable("Menus");
+                });
+
+            modelBuilder.Entity("Restaurant.Domain.Models.Order", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("OrderDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("TotalAmount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId")
+                        .IsUnique();
+
+                    b.ToTable("Orders");
+                });
+
+            modelBuilder.Entity("Restaurant.Domain.Models.OrderItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("FoodId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("UnitPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("FoodId")
+                        .IsUnique();
+
+                    b.HasIndex("OrderId");
+
+                    b.ToTable("OrderItems");
                 });
 
             modelBuilder.Entity("Restaurant.Domain.Models.QR", b =>
@@ -353,9 +413,6 @@ namespace Restaurant.Persistence.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int?>("CategoryId")
-                        .HasColumnType("int");
 
                     b.Property<string>("Content")
                         .HasColumnType("nvarchar(max)");
@@ -385,14 +442,14 @@ namespace Restaurant.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CategoryId");
-
-                    b.HasIndex("MenuId");
+                    b.HasIndex("MenuId")
+                        .IsUnique()
+                        .HasFilter("[MenuId] IS NOT NULL");
 
                     b.ToTable("QRs");
                 });
 
-            modelBuilder.Entity("Restaurant.Domain.Models.Restaurants", b =>
+            modelBuilder.Entity("Restaurant.Domain.Models.RestaurantTable", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -400,9 +457,8 @@ namespace Restaurant.Persistence.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Address")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Capacity")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
@@ -410,19 +466,57 @@ namespace Restaurant.Persistence.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PhoneNumber")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("TableNumber")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Restaurants");
+                    b.ToTable("Tables");
+                });
+
+            modelBuilder.Entity("Restaurant.Domain.Models.Rezervation", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("NumberOfGuests")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("ReservationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("RestaurantTableId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("SpecialRequest")
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RestaurantTableId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Rezervations");
                 });
 
             modelBuilder.Entity("Restaurant.Domain.Models.Tag", b =>
@@ -453,14 +547,40 @@ namespace Restaurant.Persistence.Migrations
 
             modelBuilder.Entity("Restaurant.Domain.Models.User", b =>
                 {
-                    b.Property<string>("Id")
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ApplicationUserId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("CoverImageUrl")
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ResetToken")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ResetTokenExpiry")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Role")
+                        .HasMaxLength(20)
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ApplicationUserId");
 
                     b.ToTable("Users");
                 });
@@ -507,12 +627,12 @@ namespace Restaurant.Persistence.Migrations
                 {
                     b.HasOne("Restaurant.Domain.Models.Category", "Category")
                         .WithMany("Foods")
-                        .HasForeignKey("CategoryID")
+                        .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Restaurant.Domain.Models.Menu", "Menu")
-                        .WithMany()
+                        .WithMany("Foods")
                         .HasForeignKey("MenuId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -522,37 +642,77 @@ namespace Restaurant.Persistence.Migrations
                     b.Navigation("Menu");
                 });
 
-            modelBuilder.Entity("Restaurant.Domain.Models.Menu", b =>
+            modelBuilder.Entity("Restaurant.Domain.Models.Order", b =>
                 {
-                    b.HasOne("Restaurant.Domain.Models.Restaurants", null)
-                        .WithMany("Menus")
-                        .HasForeignKey("RestaurantsId");
+                    b.HasOne("Restaurant.Domain.Models.AppUser", "AppUser")
+                        .WithOne("Order")
+                        .HasForeignKey("Restaurant.Domain.Models.Order", "AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+                });
+
+            modelBuilder.Entity("Restaurant.Domain.Models.OrderItem", b =>
+                {
+                    b.HasOne("Restaurant.Domain.Models.Food", "Food")
+                        .WithOne("OrderItem")
+                        .HasForeignKey("Restaurant.Domain.Models.OrderItem", "FoodId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Restaurant.Domain.Models.Order", "Order")
+                        .WithMany("OrderItems")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Food");
+
+                    b.Navigation("Order");
                 });
 
             modelBuilder.Entity("Restaurant.Domain.Models.QR", b =>
                 {
-                    b.HasOne("Restaurant.Domain.Models.Category", "Category")
-                        .WithMany()
-                        .HasForeignKey("CategoryId");
-
                     b.HasOne("Restaurant.Domain.Models.Menu", "Menu")
-                        .WithMany()
-                        .HasForeignKey("MenuId");
-
-                    b.Navigation("Category");
+                        .WithOne("QR")
+                        .HasForeignKey("Restaurant.Domain.Models.QR", "MenuId");
 
                     b.Navigation("Menu");
+                });
+
+            modelBuilder.Entity("Restaurant.Domain.Models.Rezervation", b =>
+                {
+                    b.HasOne("Restaurant.Domain.Models.RestaurantTable", "RestaurantTable")
+                        .WithMany("Rezervations")
+                        .HasForeignKey("RestaurantTableId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Restaurant.Domain.Models.User", "User")
+                        .WithMany("Rezervation")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("RestaurantTable");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Restaurant.Domain.Models.User", b =>
                 {
                     b.HasOne("Restaurant.Domain.Models.AppUser", "ApplicationUser")
                         .WithMany()
-                        .HasForeignKey("Id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ApplicationUserId");
 
                     b.Navigation("ApplicationUser");
+                });
+
+            modelBuilder.Entity("Restaurant.Domain.Models.AppUser", b =>
+                {
+                    b.Navigation("Order")
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Restaurant.Domain.Models.Author", b =>
@@ -570,19 +730,42 @@ namespace Restaurant.Persistence.Migrations
                     b.Navigation("Foods");
                 });
 
+            modelBuilder.Entity("Restaurant.Domain.Models.Food", b =>
+                {
+                    b.Navigation("OrderItem");
+                });
+
             modelBuilder.Entity("Restaurant.Domain.Models.Genre", b =>
                 {
                     b.Navigation("Blogs");
                 });
 
-            modelBuilder.Entity("Restaurant.Domain.Models.Restaurants", b =>
+            modelBuilder.Entity("Restaurant.Domain.Models.Menu", b =>
                 {
-                    b.Navigation("Menus");
+                    b.Navigation("Foods");
+
+                    b.Navigation("QR")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Restaurant.Domain.Models.Order", b =>
+                {
+                    b.Navigation("OrderItems");
+                });
+
+            modelBuilder.Entity("Restaurant.Domain.Models.RestaurantTable", b =>
+                {
+                    b.Navigation("Rezervations");
                 });
 
             modelBuilder.Entity("Restaurant.Domain.Models.Tag", b =>
                 {
                     b.Navigation("BlogTags");
+                });
+
+            modelBuilder.Entity("Restaurant.Domain.Models.User", b =>
+                {
+                    b.Navigation("Rezervation");
                 });
 #pragma warning restore 612, 618
         }

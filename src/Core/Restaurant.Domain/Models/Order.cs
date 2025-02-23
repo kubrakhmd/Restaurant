@@ -15,8 +15,8 @@ namespace Restaurant.Domain.Models
         public decimal TotalAmount { get; set; }
         public OrderStatus Status { get; set; } = OrderStatus.New;
 
-        public int UserId { get; set; } 
-        public AppUser User { get; set; }
+        public string AppUserId { get; set; } 
+        public AppUser AppUser { get; set; }
         public ICollection<OrderItem> OrderItems { get; set; }
     }
 }

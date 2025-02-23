@@ -16,7 +16,5 @@ namespace Restaurant.Domain.Models
         public string ProductType { get; set; } = "";
 
         public int ProductId { get; set; }
-
-        public Category? Category { get; set; }
     }
 }

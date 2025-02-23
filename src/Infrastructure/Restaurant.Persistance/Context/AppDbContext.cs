@@ -22,7 +22,7 @@ namespace Restaurant.Persistence.Context
         public DbSet <Order> Orders { get; set; }
         public DbSet<OrderItem> OrderItems { get; set; }    
         public DbSet<Food> Foods { get; set; }  
-        public DbSet<RestaurantHome> RestaurantHomes { get; set; }
+ 
         public DbSet <Menu> Menus { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<RestaurantTable> Tables { get; set; }    

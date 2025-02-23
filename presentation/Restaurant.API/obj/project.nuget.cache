@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nJTp2nA2EEs=",
+  "dgSpecHash": "DxfNiclGRLU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\presentation\\Restaurant.API\\Restaurant.API.csproj",
+  "projectFilePath": "D:\\Restaurant\\presentation\\Restaurant.API\\Restaurant.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kubra\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Kubra\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

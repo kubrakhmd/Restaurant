@@ -76,7 +76,7 @@ namespace Restaurant.Persistence.Implementations.Services
 
                 if (user == null)
                 {
-                    throw new Exception("User not found");
+                    throw new Exception("AppUser not found");
                 }
 
                 bool isPasswordValid = VerifyPassword(loginDto.Password, user.PasswordHash);
@@ -108,7 +108,7 @@ namespace Restaurant.Persistence.Implementations.Services
                 var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == forgetPasswordDto.Email);
                 if (user == null)
                 {
-                    throw new Exception("User not found");
+                    throw new Exception("AppUser not found");
                 }
 
                 var resetToken = GenerateResetToken();
@@ -184,7 +184,7 @@ namespace Restaurant.Persistence.Implementations.Services
                     var user = await _context.Users.FindAsync(id);
                     if (user == null)
                     {
-                        throw new Exception("User not found");
+                        throw new Exception("AppUser not found");
                 }
 
                     var userDto = _mapper.Map<UserDto>(user);
@@ -206,7 +206,7 @@ namespace Restaurant.Persistence.Implementations.Services
                 var user = await _context.Users.FirstOrDefaultAsync(u => u.UserName == username);
                 if (user == null)
                 {
-                    throw new Exception("User not found");
+                    throw new Exception("AppUser not found");
                 }
 
                 var userDto = _mapper.Map<UserDto>(user);
@@ -227,7 +227,7 @@ namespace Restaurant.Persistence.Implementations.Services
                     var user = await _context.Users.FindAsync(userRole.UserId);
                     if (user == null)
                     {
-                     throw new Exception("User not found");
+                     throw new Exception("AppUser not found");
                 }
 
                     user.Role = userRole.NewRole;
@@ -268,7 +268,7 @@ namespace Restaurant.Persistence.Implementations.Services
                     var user = await _context.Users.FindAsync(userId);
                     if (user == null)
                     {
-                      throw new Exception ("User not found");   
+                      throw new Exception ("AppUser not found");   
                 }
 
                     _context.Users.Remove(user);

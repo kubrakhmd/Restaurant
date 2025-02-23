@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\presentation\\Restaurant.API\\Restaurant.API.csproj": {}
+    "D:\\Restaurant\\presentation\\Restaurant.API\\Restaurant.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\presentation\\Restaurant.API\\Restaurant.API.csproj": {
+    "D:\\Restaurant\\presentation\\Restaurant.API\\Restaurant.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\presentation\\Restaurant.API\\Restaurant.API.csproj",
+        "projectUniqueName": "D:\\Restaurant\\presentation\\Restaurant.API\\Restaurant.API.csproj",
         "projectName": "Restaurant.API",
-        "projectPath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\presentation\\Restaurant.API\\Restaurant.API.csproj",
+        "projectPath": "D:\\Restaurant\\presentation\\Restaurant.API\\Restaurant.API.csproj",
         "packagesPath": "C:\\Users\\Kubra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\presentation\\Restaurant.API\\obj\\",
+        "outputPath": "D:\\Restaurant\\presentation\\Restaurant.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,14 +33,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Core\\Restaurant.Application\\Restaurant.Application.csproj": {
-                "projectPath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Core\\Restaurant.Application\\Restaurant.Application.csproj"
+              "D:\\Restaurant\\src\\Core\\Restaurant.Application\\Restaurant.Application.csproj": {
+                "projectPath": "D:\\Restaurant\\src\\Core\\Restaurant.Application\\Restaurant.Application.csproj"
               },
-              "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Infrastructure\\Restaurant.Infrastructure\\Restaurant.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Infrastructure\\Restaurant.Infrastructure\\Restaurant.Infrastructure.csproj"
+              "D:\\Restaurant\\src\\Infrastructure\\Restaurant.Infrastructure\\Restaurant.Infrastructure.csproj": {
+                "projectPath": "D:\\Restaurant\\src\\Infrastructure\\Restaurant.Infrastructure\\Restaurant.Infrastructure.csproj"
               },
-              "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Infrastructure\\Restaurant.Persistance\\Restaurant.Persistence.csproj": {
-                "projectPath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Infrastructure\\Restaurant.Persistance\\Restaurant.Persistence.csproj"
+              "D:\\Restaurant\\src\\Infrastructure\\Restaurant.Persistance\\Restaurant.Persistence.csproj": {
+                "projectPath": "D:\\Restaurant\\src\\Infrastructure\\Restaurant.Persistance\\Restaurant.Persistence.csproj"
               }
             }
           }
@@ -125,14 +125,14 @@
         }
       }
     },
-    "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Core\\Restaurant.Application\\Restaurant.Application.csproj": {
+    "D:\\Restaurant\\src\\Core\\Restaurant.Application\\Restaurant.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Core\\Restaurant.Application\\Restaurant.Application.csproj",
+        "projectUniqueName": "D:\\Restaurant\\src\\Core\\Restaurant.Application\\Restaurant.Application.csproj",
         "projectName": "Restaurant.Application",
-        "projectPath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Core\\Restaurant.Application\\Restaurant.Application.csproj",
+        "projectPath": "D:\\Restaurant\\src\\Core\\Restaurant.Application\\Restaurant.Application.csproj",
         "packagesPath": "C:\\Users\\Kubra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Core\\Restaurant.Application\\obj\\",
+        "outputPath": "D:\\Restaurant\\src\\Core\\Restaurant.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -154,8 +154,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj": {
-                "projectPath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj"
+              "D:\\Restaurant\\src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj": {
+                "projectPath": "D:\\Restaurant\\src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj"
               }
             }
           }
@@ -209,14 +209,14 @@
         }
       }
     },
-    "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj": {
+    "D:\\Restaurant\\src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj",
+        "projectUniqueName": "D:\\Restaurant\\src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj",
         "projectName": "Restaurant.Domain",
-        "projectPath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj",
+        "projectPath": "D:\\Restaurant\\src\\Core\\Restaurant.Domain\\Restaurant.Domain.csproj",
         "packagesPath": "C:\\Users\\Kubra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Core\\Restaurant.Domain\\obj\\",
+        "outputPath": "D:\\Restaurant\\src\\Core\\Restaurant.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -281,14 +281,14 @@
         }
       }
     },
-    "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Infrastructure\\Restaurant.Infrastructure\\Restaurant.Infrastructure.csproj": {
+    "D:\\Restaurant\\src\\Infrastructure\\Restaurant.Infrastructure\\Restaurant.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Infrastructure\\Restaurant.Infrastructure\\Restaurant.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Restaurant\\src\\Infrastructure\\Restaurant.Infrastructure\\Restaurant.Infrastructure.csproj",
         "projectName": "Restaurant.Infrastructure",
-        "projectPath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Infrastructure\\Restaurant.Infrastructure\\Restaurant.Infrastructure.csproj",
+        "projectPath": "D:\\Restaurant\\src\\Infrastructure\\Restaurant.Infrastructure\\Restaurant.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Kubra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Infrastructure\\Restaurant.Infrastructure\\obj\\",
+        "outputPath": "D:\\Restaurant\\src\\Infrastructure\\Restaurant.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -377,14 +377,14 @@
         }
       }
     },
-    "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Infrastructure\\Restaurant.Persistance\\Restaurant.Persistence.csproj": {
+    "D:\\Restaurant\\src\\Infrastructure\\Restaurant.Persistance\\Restaurant.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Infrastructure\\Restaurant.Persistance\\Restaurant.Persistence.csproj",
+        "projectUniqueName": "D:\\Restaurant\\src\\Infrastructure\\Restaurant.Persistance\\Restaurant.Persistence.csproj",
         "projectName": "Restaurant.Persistence",
-        "projectPath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Infrastructure\\Restaurant.Persistance\\Restaurant.Persistence.csproj",
+        "projectPath": "D:\\Restaurant\\src\\Infrastructure\\Restaurant.Persistance\\Restaurant.Persistence.csproj",
         "packagesPath": "C:\\Users\\Kubra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Infrastructure\\Restaurant.Persistance\\obj\\",
+        "outputPath": "D:\\Restaurant\\src\\Infrastructure\\Restaurant.Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -406,11 +406,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Core\\Restaurant.Application\\Restaurant.Application.csproj": {
-                "projectPath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Core\\Restaurant.Application\\Restaurant.Application.csproj"
+              "D:\\Restaurant\\src\\Core\\Restaurant.Application\\Restaurant.Application.csproj": {
+                "projectPath": "D:\\Restaurant\\src\\Core\\Restaurant.Application\\Restaurant.Application.csproj"
               },
-              "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Infrastructure\\Restaurant.Infrastructure\\Restaurant.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\src\\Infrastructure\\Restaurant.Infrastructure\\Restaurant.Infrastructure.csproj"
+              "D:\\Restaurant\\src\\Infrastructure\\Restaurant.Infrastructure\\Restaurant.Infrastructure.csproj": {
+                "projectPath": "D:\\Restaurant\\src\\Infrastructure\\Restaurant.Infrastructure\\Restaurant.Infrastructure.csproj"
               }
             }
           }

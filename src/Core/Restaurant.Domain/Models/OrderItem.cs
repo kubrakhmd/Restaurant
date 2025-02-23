@@ -9,7 +9,7 @@ namespace Restaurant.Domain.Models
     {
    
         [Required]
-        public int MenuItemId { get; set; }
+        public int FoodId { get; set; }
         [Required]
         public int Quantity { get; set; }
         [Required]
@@ -19,7 +19,7 @@ namespace Restaurant.Domain.Models
        public int OrderId { get; set; }
         public Order Order { get; set; }
 
-        [ForeignKey(nameof(MenuItemId))]
-        public Menu MenuItem { get; set; }
+        
+        public Food Food { get; set; }
     }
 }

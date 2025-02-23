@@ -121,7 +121,7 @@ namespace Restaurant.Persistence.Services
             try
             {
                 var existingReservation = await _context.Rezervations
-                    .Where(r => r.TableId == CreateR.TableId &&
+                    .Where(r => r.RestaurantTableId == CreateR.TableId &&
                                 r.ReservationDate.Date == CreateR.ReservationDate.Date &&
                                 r.ReservationDate.Hour == CreateR.ReservationDate.Hour)
                     .FirstOrDefaultAsync();

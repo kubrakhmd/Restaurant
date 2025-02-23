@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GW//UrD155PLHN8/309x4iZ2uvu1DN4YO8Gb9UE403o=",
+  "Hash": "MWdTiwlXhefqcQxgeEJuXu9+E6aavn04iSGdrDSsFPo=",
   "Source": "Restaurant.API",
   "BasePath": "_content/Restaurant.API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Restaurant.API\\wwwroot",
       "Source": "Restaurant.API",
-      "ContentRoot": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\presentation\\Restaurant.API\\wwwroot\\",
+      "ContentRoot": "D:\\Restaurant\\presentation\\Restaurant.API\\wwwroot\\",
       "BasePath": "_content/Restaurant.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\presentation\\Restaurant.API\\wwwroot\\Images\\Logo.png",
+      "Identity": "D:\\Restaurant\\presentation\\Restaurant.API\\wwwroot\\Images\\Logo.png",
       "SourceId": "Restaurant.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\presentation\\Restaurant.API\\wwwroot\\",
+      "ContentRoot": "D:\\Restaurant\\presentation\\Restaurant.API\\wwwroot\\",
       "BasePath": "_content/Restaurant.API",
       "RelativePath": "Images/Logo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -38,10 +38,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Logo.png"
     },
     {
-      "Identity": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\presentation\\Restaurant.API\\wwwroot\\Swagger-ui\\Index.html",
+      "Identity": "D:\\Restaurant\\presentation\\Restaurant.API\\wwwroot\\Swagger-ui\\Index.html",
       "SourceId": "Restaurant.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\presentation\\Restaurant.API\\wwwroot\\",
+      "ContentRoot": "D:\\Restaurant\\presentation\\Restaurant.API\\wwwroot\\",
       "BasePath": "_content/Restaurant.API",
       "RelativePath": "Swagger-ui/Index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -62,7 +62,7 @@
   "Endpoints": [
     {
       "Route": "Images/Logo.c1c1pg5hnb.png",
-      "AssetFile": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\presentation\\Restaurant.API\\wwwroot\\Images\\Logo.png",
+      "AssetFile": "D:\\Restaurant\\presentation\\Restaurant.API\\wwwroot\\Images\\Logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -83,7 +83,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 19:28:50 GMT"
+          "Value": "Sun, 23 Feb 2025 14:13:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -107,7 +107,7 @@
     },
     {
       "Route": "Images/Logo.png",
-      "AssetFile": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\presentation\\Restaurant.API\\wwwroot\\Images\\Logo.png",
+      "AssetFile": "D:\\Restaurant\\presentation\\Restaurant.API\\wwwroot\\Images\\Logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -128,7 +128,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 19:28:50 GMT"
+          "Value": "Sun, 23 Feb 2025 14:13:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -144,7 +144,7 @@
     },
     {
       "Route": "Swagger-ui/Index.hd723uhl5w.html",
-      "AssetFile": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\presentation\\Restaurant.API\\wwwroot\\Swagger-ui\\Index.html",
+      "AssetFile": "D:\\Restaurant\\presentation\\Restaurant.API\\wwwroot\\Swagger-ui\\Index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -165,7 +165,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 19:07:51 GMT"
+          "Value": "Sun, 23 Feb 2025 14:13:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -189,7 +189,7 @@
     },
     {
       "Route": "Swagger-ui/Index.html",
-      "AssetFile": "C:\\Users\\Kubra\\OneDrive\\Desktop\\Restaurant\\presentation\\Restaurant.API\\wwwroot\\Swagger-ui\\Index.html",
+      "AssetFile": "D:\\Restaurant\\presentation\\Restaurant.API\\wwwroot\\Swagger-ui\\Index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -210,7 +210,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 19:07:51 GMT"
+          "Value": "Sun, 23 Feb 2025 14:13:04 GMT"
         },
         {
           "Name": "Cache-Control",

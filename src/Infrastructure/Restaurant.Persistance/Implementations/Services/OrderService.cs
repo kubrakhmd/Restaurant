@@ -31,7 +31,7 @@ namespace Restaurant.Persistence.Implementations.Services
         {
            
           
-              var orders = await _context.Orders.Include(o => o.OrderItems).Include(o => o.User).ToListAsync();
+              var orders = await _context.Orders.Include(o => o.OrderItems).Include(o => o.AppUser).ToListAsync();
                 if (orders == null)
                 {
                     throw new Exception("Not Found");
@@ -66,7 +66,7 @@ namespace Restaurant.Persistence.Implementations.Services
                 var userExists = await _context.Users.AnyAsync(u=>u.Id==orderDto.UserId);
                 if (!userExists)
                 {
-                  throw new Exception("User is not found");
+                  throw new Exception("AppUser is not found");
                 }
 
                 var order = _mapper.Map<Order>(orderDto);
@@ -75,7 +75,7 @@ namespace Restaurant.Persistence.Implementations.Services
 
                 foreach (var itemDto in orderDto.OrderItems)
                 {
-                    var menuItem = await _context.Menus.FindAsync(itemDto.MenuItemId);
+                    var menuItem = await _context.Foods.FindAsync(itemDto.FoodId);
                     if (menuItem == null)
                     {
                       throw new Exception("Menu is not found");
@@ -114,10 +114,10 @@ namespace Restaurant.Persistence.Implementations.Services
                 {
                  throw new Exception("Order is not found");
                 }
-                if (order.UserId != orderDto.UserId)
-                {
-                    throw new Exception ("user not found");
-                }
+                //if (order.AppUserId != orderDto.UserId)
+                //{
+                //    throw new Exception ("user not found");
+                //}
                 if (order.Status == OrderStatus.InProgress || order.Status == OrderStatus.Completed)
                 {
                   throw new Exception("");
@@ -129,7 +129,7 @@ namespace Restaurant.Persistence.Implementations.Services
 
                 foreach (var itemDto in orderDto.OrderItems)
                 {
-                    var menuItem = await _context.Menus.FindAsync(itemDto.MenuItemId);
+                    var menuItem = await _context.Foods.FindAsync(itemDto.FoodId);
                     if (menuItem == null)
                     {
                       throw new Exception("Menu is not found"); 

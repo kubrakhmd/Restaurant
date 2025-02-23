@@ -78,6 +78,7 @@ namespace QRAPI.Controllers
                 }
             }
 
+
             return NoContent();
         }
 
@@ -90,7 +91,9 @@ namespace QRAPI.Controllers
             {
                 return Problem("Entity set 'AppDbContext.QRCode'  is null.");
             }
+
             _context.QRs.Add(qR);
+            
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetQR", new { id = qR.Id }, qR);
@@ -152,7 +155,7 @@ namespace QRAPI.Controllers
             if (productType.ToLower() == "food")
             {
                 var foods = await _context.Foods
-                    .Where(f => f.CategoryID == categoryId)
+                    .Where(f => f.CategoryId == categoryId)
                     .Include(f => f.Category)
                     .ToListAsync();
 

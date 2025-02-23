@@ -16,6 +16,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Restaurant.Domain.Models;
 using System.Reflection;
+using Restaurant.Application.ServiceRegistration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -73,7 +74,9 @@ builder.Services.AddControllers()
     });
 
 
-builder.Services.AddPersistenceServices(builder.Configuration) ;
+builder.Services.AddPersistenceServices(builder.Configuration).AddApplicationServices() ;
+
+
 
 var app = builder.Build();
 

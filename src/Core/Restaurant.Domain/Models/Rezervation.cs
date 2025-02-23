@@ -14,7 +14,7 @@ namespace Restaurant.Domain.Models
         public int UserId { get; set; }
 
         [Required]
-        public int TableId { get; set; }
+        public int RestaurantTableId { get; set; }
 
         [Required]
         public DateTime ReservationDate { get; set; }
@@ -29,6 +29,6 @@ namespace Restaurant.Domain.Models
         public User? User { get; set; }
 
 
-        public RestaurantTable? Table { get; set; }
+        public RestaurantTable? RestaurantTable { get; set; }
     }
 }

@@ -24,3 +24,16 @@ C:\Users\Kubra\OneDrive\Desktop\Restaurant\src\Core\Restaurant.Domain\obj\Debug\
 C:\Users\Kubra\OneDrive\Desktop\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\refint\Restaurant.Domain.dll
 C:\Users\Kubra\OneDrive\Desktop\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\Restaurant.Domain.pdb
 C:\Users\Kubra\OneDrive\Desktop\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\ref\Restaurant.Domain.dll
+D:\Restaurant\src\Core\Restaurant.Domain\bin\Debug\net8.0\Restaurant.Domain.deps.json
+D:\Restaurant\src\Core\Restaurant.Domain\bin\Debug\net8.0\Restaurant.Domain.dll
+D:\Restaurant\src\Core\Restaurant.Domain\bin\Debug\net8.0\Restaurant.Domain.pdb
+D:\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\Restaurant.Domain.csproj.AssemblyReference.cache
+D:\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\Restaurant.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\Restaurant.Domain.AssemblyInfoInputs.cache
+D:\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\Restaurant.Domain.AssemblyInfo.cs
+D:\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\Restaurant.Domain.csproj.CoreCompileInputs.cache
+D:\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\Restaurant.Domain.sourcelink.json
+D:\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\Restaurant.Domain.dll
+D:\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\refint\Restaurant.Domain.dll
+D:\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\Restaurant.Domain.pdb
+D:\Restaurant\src\Core\Restaurant.Domain\obj\Debug\net8.0\ref\Restaurant.Domain.dll
